@@ -1,0 +1,17 @@
+RESULTADO FINAL - MobileNetV2
+MÉTRICAS DE CLASSIFICAÇÃO (Média ± Desvio Padrão):
+       ACC: 0.9281 ± 0.1085
+    RECALL: 0.6611 ± 0.2141
+        F1: 0.6648 ± 0.2407
+       AUC: 0.9106 ± 0.1399
+CUSTO COMPUTACIONAL:
+
+1. TEMPO DE MÁQUINA:
+  Calibração (Optuna): 18.83 h (1130.08 min)
+  Treinamento Final  : 0.88 h (52.67 min)
+  Total da Máquina   : 19.71 h
+
+2. TEMPO REAL (média):
+  Calibração         : 4.71 h (282.52 min)
+  Treinamento        : 0.22 h (13.17 min)
+  TEMPO DOS 2 JUNTOS : 5.14 h (308.14 min)

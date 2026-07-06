@@ -1,0 +1,17 @@
+RESULTADO FINAL - InceptionV3
+MÉTRICAS DE CLASSIFICAÇÃO (Média ± Desvio Padrão):
+       ACC: 0.9503 ± 0.0029
+    RECALL: 0.6218 ± 0.0288
+        F1: 0.6948 ± 0.0187
+       AUC: 0.9342 ± 0.0109
+CUSTO COMPUTACIONAL:
+
+1. TEMPO DE MÁQUINA:
+  Calibração (Optuna): 31.92 h (1915.08 min)
+  Treinamento Final  : 1.49 h (89.32 min)
+  Total da Máquina   : 33.41 h
+
+2. TEMPO REAL (média):
+  Calibração         : 7.98 h (478.77 min)
+  Treinamento        : 0.37 h (22.33 min)
+  TEMPO DOS 2 JUNTOS : 8.52 h (511.24 min)
